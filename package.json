@@ -1,0 +1,30 @@
+{
+    "name": "stb-gulp-proxy",
+    "version": "1.3.0",
+    "description": "Proxy JavaScript code execution from a desktop browser to STB device.",
+    "author": {
+        "name": "Stanislav Kalashnik",
+        "email": "darkpark.main@gmail.com"
+    },
+    "repository": "stbsdk/gulp-proxy",
+    "scripts": {
+        "lint": "eslint *.js",
+        "jsdoc": "jsdoc --destination doc *.js readme.md"
+    },
+    "dependencies": {
+        "code-proxy": "1.*.*",
+        "del": "2.*.*",
+        "stb-gulp": "1.*.*"
+    },
+    "keywords": [
+        "stb",
+        "stbsdk",
+        "framework",
+        "gulp",
+        "develop",
+        "task",
+        "proxy",
+        "server"
+    ],
+    "license": "GPL-3.0"
+}
