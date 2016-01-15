@@ -15,6 +15,13 @@ var path  = require('path'),
     title = 'proxy   '.inverse;
 
 
+// task set was turned off in gulp.js
+if ( !config ) {
+    // do not create tasks
+    return;
+}
+
+
 // start call redirection
 gulp.task('proxy', function ( done ) {
     var config = load(cfg);
