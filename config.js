@@ -1,32 +1,39 @@
 /**
  * Code-proxy server configuration for proxy gulp task.
+ *
+ * @author Stanislav Kalashnik <darkpark.main@gmail.com>
+ * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
 
 'use strict';
 
-// public
-module.exports = {
-    // turn on/off server
-    active: true,
+var extend = require('extend'),
+    config = require('spa-gulp/config');
 
-    // listening HTTP port to serve proxy files
-    portHttp: 8800,
 
-    // listening WebSocket port to serve requests
-    portWs: 8900,
+// base config
+// each profile inherits all options from the "default" profile
+module.exports = extend(true, {}, config, {
+    default: {
+        // listening HTTP port to serve proxy files
+        portHttp: 8800,
 
-    // time between connection/sending attempts (in ms)
-    retryDelay: 100,
+        // listening WebSocket port to serve requests
+        portWs: 8900,
 
-    // amount of connection/sending attempts before give up
-    retryLimit: 30,
+        // time between connection/sending attempts (in ms)
+        retryDelay: 100,
 
-    // full logging
-    logging: false,
+        // amount of connection/sending attempts before give up
+        retryLimit: 30,
 
-    // session name
-    name: 'anonymous',
+        // full logging
+        logging: false,
 
-    // use localStorage to get/save requests data
-    cache: true
-};
+        // session name
+        name: 'anonymous',
+
+        // use localStorage to get/save requests data
+        cache: true
+    }
+});
