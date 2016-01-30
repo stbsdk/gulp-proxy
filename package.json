@@ -14,7 +14,7 @@
     "dependencies": {
         "code-proxy": "1.*.*",
         "del": "2.*.*",
-        "stb-gulp": "1.*.*"
+        "stb-gulp": "stbsdk/gulp"
     },
     "keywords": [
         "stb",
