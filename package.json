@@ -13,10 +13,8 @@
     },
     "dependencies": {
         "code-proxy": "1.*.*",
-        "del": "2.*.*",
         "extend": "3.*.*",
-        "require-nocache": "1.*.*",
-        "stb-gulp": "stbsdk/gulp"
+        "require-nocache": "1.*.*"
     },
     "keywords": [
         "stb",
