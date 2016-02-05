@@ -1,6 +1,4 @@
 /**
- * Proxy js code execution from a desktop browser to STB.
- *
  * @author Stanislav Kalashnik <darkpark.main@gmail.com>
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
