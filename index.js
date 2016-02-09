@@ -10,7 +10,7 @@ var path  = require('path'),
     log   = require('gulp-util').log,
     load  = require('require-nocache')(module),
     cfg   = path.join(process.env.PATH_ROOT, process.env.PATH_CFG, 'proxy'),
-    title = 'proxy   '.inverse;
+    title = 'proxy   ';
 
 
 // task set was turned off in gulp.js
@@ -26,7 +26,7 @@ gulp.task('proxy', function ( done ) {
 
     if ( !config.active ) {
         // just exit
-        log(title, 'task is disabled'.grey);
+        log(title, 'task is disabled');
 
         done();
     }
