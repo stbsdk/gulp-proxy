@@ -20,9 +20,8 @@
         "stb",
         "stbsdk",
         "framework",
-        "gulp",
         "develop",
-        "task",
+        "plugin",
         "proxy",
         "server"
     ],
