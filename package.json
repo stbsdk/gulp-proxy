@@ -14,7 +14,8 @@
     "dependencies": {
         "code-proxy": "1.*.*",
         "extend": "3.*.*",
-        "require-nocache": "1.*.*"
+        "require-nocache": "1.*.*",
+        "spa-plugin": "spasdk/plugin"
     },
     "keywords": [
         "stb",
