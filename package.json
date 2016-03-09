@@ -17,6 +17,9 @@
         "require-nocache": "1.*.*",
         "spa-plugin": "spasdk/plugin"
     },
+    "devDependencies": {
+        "stb-eslint-config": "stbsdk/eslint-config"
+    },
     "keywords": [
         "stb",
         "stbsdk",
