@@ -14,10 +14,10 @@ var path  = require('path'),
 
 
 // task set was turned off in gulp.js
-if ( !config ) {
-    // do not create tasks
-    return;
-}
+// if ( !config ) {
+//     // do not create tasks
+//     return;
+// }
 
 
 // start call redirection
