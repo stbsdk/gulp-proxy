@@ -1,9 +1,10 @@
 Proxy JavaScript code execution
 ===============================
 
-[![Build Status](https://img.shields.io/travis/stbsdk/plugin-proxy.svg?style=flat-square)](https://travis-ci.org/stbsdk/plugin-proxy)
-[![NPM version](https://img.shields.io/npm/v/stb-plugin-proxy.svg?style=flat-square)](https://www.npmjs.com/package/stb-plugin-proxy)
-[![Dependencies Status](https://img.shields.io/david/stbsdk/plugin-proxy.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-proxy)
+[![build status](https://img.shields.io/travis/stbsdk/plugin-proxy.svg?style=flat-square)](https://travis-ci.org/stbsdk/plugin-proxy)
+[![npm version](https://img.shields.io/npm/v/stb-plugin-proxy.svg?style=flat-square)](https://www.npmjs.com/package/stb-plugin-proxy)
+[![dependencies status](https://img.shields.io/david/stbsdk/plugin-proxy.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-proxy)
+[![devDependencies status](https://img.shields.io/david/dev/stbsdk/plugin-proxy.svg?style=flat-square)](https://david-dm.org/stbsdk/plugin-proxy?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stbsdk)
 
 
